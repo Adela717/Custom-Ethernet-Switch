@@ -5,4 +5,5 @@ sim/__pycache__
 
 hosts_output/
 switch_*_out
+switch_*_err
 router_*
