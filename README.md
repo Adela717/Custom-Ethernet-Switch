@@ -1,4 +1,17 @@
-Scheleton for the Hub implementation.
+# Custom Ethernet Switch
+
+A software implementation of a Layer 2 Ethernet switch developed in Python.
+
+The switch supports MAC address learning, frame forwarding, VLAN tagging for access and trunk ports, and a simplified Spanning Tree Protocol for root bridge election and loop prevention. The network topology is simulated using Mininet, while Wireshark can be used for packet inspection and debugging.
+
+## Features
+
+- Dynamic MAC address learning
+- Unicast and broadcast frame forwarding
+- VLAN support for access and trunk ports
+- Simplified Spanning Tree Protocol
+- Root bridge election and loop prevention
+- Custom Wireshark dissector for STP packets
 
 ## Running
 
